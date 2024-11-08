@@ -5,7 +5,7 @@ const minuteHand = document.querySelector(".minuteHand");
 const calcDegrees = (time, max) => (time / max) * 360;
 
 function updateClock() {
-  // Create new Date object
+  // create-new-date-object
   const currentTime = new Date();
 
   const secondHandDegrees = calcDegrees(currentTime.getSeconds(), 60);
